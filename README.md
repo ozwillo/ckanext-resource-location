@@ -1,1 +1,0 @@
-# ckanext-resource-location

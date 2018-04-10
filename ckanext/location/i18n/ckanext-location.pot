@@ -1,0 +1,66 @@
+# Translations template for ckanext-location.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the ckanext-location
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-location 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-03-22 10:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ckanext/location/templates/package/snippets/resource_form.html:10
+msgid ""
+"These fields are optional, fill only if you are importing a CSV containing "
+"address, zipcode and city columns and you wish to add two columns with the "
+"coordinates at the end of your file"
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:13
+msgid "Address"
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:13
+msgid "Address column number"
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:17
+msgid "Additional address"
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:17
+msgid "Additional address column number"
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:21
+msgid "Zipcode"
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:21
+msgid "Zipcode column number"
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:25
+msgid "City"
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:25
+msgid "City column number"
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:38
+msgid "Uploading file..."
+msgstr ""
+
+#: ckanext/location/templates/package/snippets/resource_form.html:40
+msgid "Add"
+msgstr ""
+
