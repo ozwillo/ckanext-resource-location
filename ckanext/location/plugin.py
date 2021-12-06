@@ -7,7 +7,7 @@ import ckan.lib.uploader as uploader
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 from ckan.lib.plugins import DefaultTranslation
-from location import geores
+from .location import geores
 import os
 import logging
 
@@ -80,7 +80,7 @@ class MyResourceUploader(uploader.ResourceUpload):
         if self.filename:
             try:
                 os.makedirs(directory)
-            except OSError, e:
+            except OSError as e:
                 # errno 17 is file already exists
                 if e.errno != 17:
                     raise
@@ -116,5 +116,5 @@ class MyResourceUploader(uploader.ResourceUpload):
         if self.clear:
             try:
                 os.remove(filepath)
-            except OSError, e:
+            except OSError as e:
                 pass

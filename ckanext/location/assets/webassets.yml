@@ -1,0 +1,6 @@
+location_bar:
+  output: ckanext-ozwillo-theme/%(version)s_location
+  contents:
+    - location_loadbar.css
+    - location_showbar.js
+
